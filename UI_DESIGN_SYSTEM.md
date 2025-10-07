@@ -1,7 +1,7 @@
 # Educational App UI Design System
 ## For Primary School Students (Year 1-4, Ages 6-10)
 
-This design system was created for the **Mia Kids Educational Chatbot** and is designed to be reusable across multiple educational applications targeting young learners.
+This design system was created for an **Educational Chatbot** and is designed to be reusable across multiple educational applications targeting young learners.
 
 ---
 

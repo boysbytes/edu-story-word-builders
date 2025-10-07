@@ -315,7 +315,7 @@ function Header({ step, totalQuestions }) {
             🦉
           </div>
           <div>
-            <p className="text-2xl font-black leading-tight text-white">Mia Kids Story Builder</p>
+            <p className="text-2xl font-black leading-tight text-white">Story Builder Bot</p>
             <p className="text-xs font-bold tracking-wide text-white/90 uppercase">Year 1–4 Students (Malaysia)</p>
           </div>
         </div>
