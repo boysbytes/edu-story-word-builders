@@ -1,4 +1,4 @@
-# Mia Kids Educational Chatbot - AI Agent Instructions
+# Story Builder Bot - AI Agent Instructions
 
 ## Project Overview
 This is an **educational chatbot for Malaysian Year 1-4 students**. The app is a **Vite + React single-page application** designed for deployment to **Vercel** as a static site with serverless functions.

@@ -12,7 +12,7 @@ import React, { useEffect, useMemo, useRef, useState } from "react";
 const STEPS = [
   {
     "type": "bot",
-    "text": "Hello! I'm Mia, your Story Builder Bot! 👩‍🏫 We're going to make a fun story together! I will ask you to choose special words.\n\nRemember: naming words name people, animals, or things. Action words tell what someone does. Describing words tell what something is like.\n\nAre you ready to build our story?",
+    "text": "Hello! I'm your Story Builder Bot! 👩‍🏫 We're going to make a fun story together! I will ask you to choose special words.\n\nRemember: naming words name people, animals, or things. Action words tell what someone does. Describing words tell what something is like.\n\nAre you ready to build our story?",
     "buttonText": "Let's Go! ✨"
   },
   {

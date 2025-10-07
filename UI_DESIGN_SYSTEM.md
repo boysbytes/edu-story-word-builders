@@ -471,5 +471,5 @@ module.exports = {
 
 **Version**: 1.0.0  
 **Last Updated**: 2025-10-07  
-**Project**: Mia Kids Educational Chatbot  
+**Project**: Story Builder Bot  
 **License**: MIT (reusable for educational projects)

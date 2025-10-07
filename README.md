@@ -8,7 +8,7 @@ Vercel page: https://vercel.com/boysbytes-projects/edu-story-word-builders
 
 ## Features
 
-- 🤖 **Interactive Chatbot**: Friendly Mia guides students through word selection
+- 🤖 **Interactive Chatbot**: Friendly chatbot guides students through word selection
 - 📚 **Educational Focus**: Teaches naming words, action words, and describing words
 - 🎨 **Story Generation**: AI-powered story creation using student's word choices
 - 🔄 **Story Remix**: Students can modify words to create new story versions
@@ -72,6 +72,32 @@ npm i -g vercel
 # Deploy
 vercel --prod
 ```
+
+## Iframe Embedding
+
+The application is configured to allow iframe embedding from any domain. When embedding this educational chatbot, use the following recommended settings:
+
+### Recommended Iframe Configuration
+```html
+<iframe 
+  src="https://your-app-url.vercel.app" 
+  width="100%" 
+  height="600px" 
+  frameborder="0"
+  scrolling="auto">
+</iframe>
+```
+
+### Height Considerations
+- **Recommended Height**: 600px
+- **Why 600px**: Accommodates the sticky header (~80-100px) plus several chat interactions before requiring scroll
+- **Dynamic Content**: The chat interface grows vertically as students progress through 9 word selection questions + story generation
+- **Auto-scroll**: The app automatically scrolls to show the latest content within the iframe
+
+### Alternative Approaches
+- **Dynamic Height**: For automatic iframe resizing, implement postMessage communication from the app to the parent page
+- **Fixed Height**: For controlled environments, 700-800px may accommodate complete conversations without scrolling
+- **Responsive Design**: The app adapts well to various iframe heights while maintaining usability
 
 ## Project Structure
 
