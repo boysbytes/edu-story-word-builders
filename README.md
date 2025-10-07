@@ -4,7 +4,7 @@ This chatbot is used in Project B of AI Toolkit for Students.
 
 The chatbot is for Malaysian Year 1-4 students learning English reading comprehension. Students choose words by category (naming, action, describing) and watch as their choices create a unique story powered by AI.
 
-Vercel page: [https://vercel.com/boysbytes-projects/edu-story-word-builders-54pp](https://vercel.com/boysbytes-projects/edu-story-word-builders-54pp)
+Vercel page: https://vercel.com/boysbytes-projects/edu-story-word-builders
 
 ## Features
 
